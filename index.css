@@ -1,0 +1,71 @@
+
+
+.index-Body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    cursor: pointer;
+}
+
+.logo .scibbler {
+    float: left;
+}
+
+.logo .btn-logo {
+    float: right;
+}
+
+.header .logo .scibbler {
+    font-family: 'Montez', cursive;
+    font-size: 40px;
+    color: rgb(56, 56, 221);
+}
+
+.header .btn-logo .SignUp_btn {
+    background-color: rgb(38, 62, 219);
+    color: white;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+.header .btn-logo .SignIn_btn {
+    background-color: rgb(38, 62, 219);
+    color: white;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+.Post-Btn {
+    text-align: center;
+    padding-top: 280px;
+}
+
+.AllPost_Btn {
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+}
+
+.CreatePost_Btn {
+    text-align: center;
+    background-color: goldenrod;
+    color: black;
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+}
+
+.AllPost_Btn:hover,
+.CreatePost_Btn:hover {
+    color: white;
+    background-color: blue;
+}
